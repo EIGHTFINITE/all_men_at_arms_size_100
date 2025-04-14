@@ -162,7 +162,31 @@ ballistrai = {
 	}
 
 	can_recruit = {
-		valid_for_maa_trigger = { PARAMETER = unlock_maa_ballistrai }
+		OR = {
+			valid_for_maa_trigger = { PARAMETER = unlock_maa_ballistrai }
+			AND = {
+				is_landless_adventurer = yes
+				has_perk = planned_cultivation_perk
+				location.county.culture ?= { has_innovation = innovation_advanced_bowmaking }
+				OR = {
+					is_ai = no
+					number_maa_regiments_of_type = {
+						type = crossbowmen
+						value >= 1
+					}
+				}
+			}
+			AND = {
+				culture = { has_innovation = innovation_advanced_bowmaking }
+				OR = {
+					is_ai = no
+					number_maa_regiments_of_type = {
+						type = crossbowmen
+						value >= 1
+					}
+				}
+			}
+		}
 	}
 
 	buy_cost = { gold = ballistrai_recruitment_cost }

@@ -1,0 +1,3 @@
+﻿l_polish:
+ eligible_accolade_crossbower_attribute_ACCOLADES_DLC: "$EFFECT_LIST_BULLET$[knights|E] tej [cultures|El] mogą otrzymać [Concept( 'accolades', 'wyróżnienie' )|E] [GetAccoladeType('crossbowmen_attribute').GetName|l]"
+ eligible_accolade_crossbower_attribute: "Można rekrutować [GetMaA('ballistrai').GetName] jako [Concept( 'men_at_arms', 'zbrojnych' )|E]\n[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_crossbower_attribute_ACCOLADES_DLC')]"

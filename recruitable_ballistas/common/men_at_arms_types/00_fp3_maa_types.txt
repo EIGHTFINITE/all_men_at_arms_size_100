@@ -23,18 +23,18 @@
 asawira = { #Iranian knights in early caliphal armies. Can be restored as a military unit with Khvarenah 4 dynasty legacy perk. 
 	type = archer_cavalry
 	
-	damage = 90
-	toughness = 35
+	damage = 45
+	toughness = 20
 	pursuit = 35
 	screen = 10
 	
 	terrain_bonus = {
-		plains = { damage = 30 }
-		drylands = { damage = 30 }
-		desert_mountains = { damage = 10 pursuit = 10 }
-		hills = { damage = -10 }
-		mountains = { damage = -50 }
-		wetlands = { damage = -50 toughness = -15 pursuit = -20 }
+		plains = { damage = 15 }
+		drylands = { damage = 15 }
+		desert_mountains = { damage = 5 pursuit = 10 }
+		hills = { damage = -5 }
+		mountains = { damage = -25 }
+		wetlands = { damage = -25 toughness = -8 pursuit = -20 }
 	}
 
 	counters = {
@@ -43,8 +43,8 @@ asawira = { #Iranian knights in early caliphal armies. Can be restored as a mili
 	}
 
 	winter_bonus = {
-		normal_winter = { damage = -15 toughness = -5 }
-		harsh_winter = { damage = -30 toughness = -10 }
+		normal_winter = { damage = -8 toughness = -2 }
+		harsh_winter = { damage = -15 toughness = -4 }
 	}
 	
 	can_recruit = {
@@ -59,7 +59,7 @@ asawira = { #Iranian knights in early caliphal armies. Can be restored as a mili
 	high_maintenance_cost = { gold = asawira_high_maint_cost }
 	provision_cost = @provisions_cost_infantry_expensive
 	
-	stack = 50
+	stack = 100
 	ai_quality = { value = @[cultural_maa_extra_ai_score + 30] }
 	icon = asawira
 }
@@ -67,17 +67,17 @@ asawira = { #Iranian knights in early caliphal armies. Can be restored as a mili
 tarkhan = {
 	type = heavy_cavalry
 	
-	damage = 110
-	toughness = 30
+	damage = 55
+	toughness = 18
 	pursuit = 30
 	screen = 10
 	
 	terrain_bonus = {
-		oasis = { damage = 30 }
-		drylands = { damage = 25 }
-		desert = { damage = 10 pursuit = 10 }
-		mountains = { damage = -30 }
-		wetlands = { damage = -80 toughness = -15 pursuit = -20 }
+		oasis = { damage = 15 }
+		drylands = { damage = 12 }
+		desert = { damage = 5 pursuit = 10 }
+		mountains = { damage = -15 }
+		wetlands = { damage = -40 toughness = -8 pursuit = -20 }
 	}
 
 	counters = {
@@ -86,8 +86,8 @@ tarkhan = {
 	}
 
 	winter_bonus = {
-		normal_winter = { damage = -10 toughness = -5 }
-		harsh_winter = { damage = -20 toughness = -5 }
+		normal_winter = { damage = -5 toughness = -2 }
+		harsh_winter = { damage = -10 toughness = -2 }
 	}
 	
 	can_recruit = {
@@ -106,7 +106,7 @@ tarkhan = {
 	high_maintenance_cost = { gold = cataphract_high_maint_cost }
 	provision_cost = @provisions_cost_cavalry_expensive
 	
-	stack = 50
+	stack = 100
 	ai_quality = { value = @[cultural_maa_extra_ai_score + 20] }
 	icon = tarkhan
 

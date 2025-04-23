@@ -799,7 +799,7 @@ tradition_mobile_guards = {
 		maa_toughness_add = 4
 		heavy_infantry_toughness_add = 4
 		heavy_infantry_maintenance_mult = 0.1
-		heavy_cavalry_toughness_add = 20
+		heavy_cavalry_toughness_add = 10
 		heavy_cavalry_maintenance_mult = 0.1
 		pikemen_toughness_add = 6
 		pikemen_maintenance_mult = 0.1
@@ -1040,8 +1040,8 @@ tradition_burman_royal_army = {
 		can_recruit_jungle_specialist = yes
 	}
 	character_modifier = {
-		elephant_cavalry_damage_add = 60
-		elephant_cavalry_toughness_add = 20
+		elephant_cavalry_damage_add = 15
+		elephant_cavalry_toughness_add = 5
 		jungle_travel_danger = jungle_medium_danger_reduction
 		accolade_glory_gain_mult = 0.1
 	}

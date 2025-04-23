@@ -128,14 +128,14 @@ laamp_base_2076_success_employer_modifier = {
 	icon = diplomacy_positive
 	county_opinion_add = 30
 	development_growth = 0.1
-	stationed_heavy_cavalry_toughness_add = 10
+	stationed_heavy_cavalry_toughness_add = 2
 	stationed_light_cavalry_pursuit_mult = 0.25
 }
 laamp_base_2076_failure_employer_modifier = {
 	icon = stewardship_negative
 	county_opinion_add = -30
 	development_growth = -0.1
-	stationed_heavy_cavalry_toughness_add = -20
+	stationed_heavy_cavalry_toughness_add = -4
 	stationed_light_cavalry_pursuit_mult = -0.5
 }
 

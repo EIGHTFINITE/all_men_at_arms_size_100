@@ -251,18 +251,18 @@ accolade_maa_lancers = {
 		}
 	}
 	
-	damage = 200
-	toughness = 70
+	damage = 100
+	toughness = 40
 	pursuit = 40
 	screen = 0
 	
 	terrain_bonus = {
-		plains = { damage = 60 }
-		drylands = { damage = 60 }
-		hills = { damage = -10 }
-		mountains = { damage = -35 }
-		desert_mountains = { damage = -35 }
-		wetlands = { damage = -35 toughness = -5 pursuit = -5 }
+		plains = { damage = 30 }
+		drylands = { damage = 30 }
+		hills = { damage = -5 }
+		mountains = { damage = -18 }
+		desert_mountains = { damage = -18 }
+		wetlands = { damage = -18 toughness = -2 pursuit = -5 }
 	}
 
 	counters = {
@@ -270,8 +270,8 @@ accolade_maa_lancers = {
 	}
 
 	winter_bonus = {
-		normal_winter = { damage = -10 toughness = -5 }
-		harsh_winter = { damage = -20 toughness = -10 }
+		normal_winter = { damage = -5 toughness = -2 }
+		harsh_winter = { damage = -10 toughness = -4 }
 	}
 
 	buy_cost = { gold = accolade_heavy_cavalry_recruitment_cost }
@@ -281,7 +281,7 @@ accolade_maa_lancers = {
 
 	max_sub_regiments = 6
 	
-	stack = 50
+	stack = 100
 	ai_quality = {
 		value = culture_ai_weight_heavy_cavalry
 		add = 100
@@ -398,18 +398,18 @@ accolade_maa_elephantiers = {
 		}
 	}
 	
-	damage = 400
-	toughness = 100
+	damage = 100
+	toughness = 36
 	pursuit = 0
 	screen = 0
 	
 	siege_value = 0.2
 	
 	terrain_bonus = {
-		jungle = { damage = 100 }
-		mountains = { damage = -100 }
-		desert_mountains = { damage = -100 }
-		wetlands = { damage = -150 toughness = -20 }
+		jungle = { damage = 25 }
+		mountains = { damage = -25 }
+		desert_mountains = { damage = -25 }
+		wetlands = { damage = -35 toughness = -8 }
 	}
 	
 	counters = {
@@ -418,8 +418,8 @@ accolade_maa_elephantiers = {
 	}
 
 	winter_bonus = {
-		normal_winter = { damage = -30 toughness = -5 }
-		harsh_winter = { damage = -60 toughness = -10 }
+		normal_winter = { damage = -8 toughness = -2 }
+		harsh_winter = { damage = -15 toughness = -4 }
 	}
 
 	buy_cost = { gold = accolade_war_elephant_recruitment_cost }
@@ -429,8 +429,7 @@ accolade_maa_elephantiers = {
 	
 	max_sub_regiments = 4
 	
-	stack = 25
-	hired_stack_size = 10
+	stack = 100
 	ai_quality = {
 		value = culture_ai_weight_elephants
 		add = 100

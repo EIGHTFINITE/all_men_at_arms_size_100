@@ -23,18 +23,18 @@
 ayrudzi = {
 	type = light_cavalry
 
-	damage = 50
-	toughness = 30
+	damage = 25
+	toughness = 15
 	pursuit = 20
 	screen = 30
 
 	terrain_bonus = {
-		hills = { damage = 30 toughness = 20 }
-		mountains = { damage = 20 toughness = 10 }
-		drylands = { damage = 10 }
-		plains = { damage = 10 }
-		wetlands = { damage = -30 toughness = -20 pursuit = -20 screen = -25 }
-		jungle = { damage = -30 toughness = -20 pursuit = -20 screen = -25 }
+		hills = { damage = 15 toughness = 10 }
+		mountains = { damage = 10 toughness = 5 }
+		drylands = { damage = 5 }
+		plains = { damage = 5 }
+		wetlands = { damage = -15 toughness = -10 pursuit = -20 screen = -25 }
+		jungle = { damage = -15 toughness = -10 pursuit = -20 screen = -25 }
 	}
 
 	counters = {
@@ -55,7 +55,7 @@ ayrudzi = {
 	high_maintenance_cost = { gold = ayrudzi_high_maint_cost }
 	provision_cost = @provisions_cost_cavalry_cheap
 
-	stack = 50
+	stack = 100
 	ai_quality = {
 		value = @cultural_maa_extra_ai_score
 		add = counter_synergy_ai_weight_light_cavalry
@@ -66,20 +66,20 @@ ayrudzi = {
 conrois = {
 	type = heavy_cavalry
 
-	damage = 100
-	toughness = 25
+	damage = 50
+	toughness = 15
 	pursuit = 10
 	screen = 0
 
 	terrain_bonus = {
-		plains = { damage = 30 }
-		drylands = { damage = 30 }
-		farmlands = { damage = 30 }
-		hills = { damage = -20 }
-		mountains = { damage = -75 }
-		desert_mountains = { damage = -75 }
-		wetlands = { damage = -75 toughness = -10 pursuit = -10 }
-		jungle = { damage = -75 toughness = -10 pursuit = -10 }
+		plains = { damage = 15 }
+		drylands = { damage = 15 }
+		farmlands = { damage = 15 }
+		hills = { damage = -10 }
+		mountains = { damage = -35 }
+		desert_mountains = { damage = -35 }
+		wetlands = { damage = -35 toughness = -4 pursuit = -10 }
+		jungle = { damage = -35 toughness = -4 pursuit = -10 }
 	}
 
 	counters = {
@@ -92,8 +92,8 @@ conrois = {
 	}
 
 	winter_bonus = {
-		normal_winter = { damage = -15 toughness = -5 }
-		harsh_winter = { damage = -25 toughness = -10 }
+		normal_winter = { damage = -8 toughness = -2 }
+		harsh_winter = { damage = -12 toughness = -4 }
 	}
 
 	buy_cost = { gold = conrois_recruitment_cost }
@@ -101,7 +101,7 @@ conrois = {
 	high_maintenance_cost = { gold = conrois_high_maint_cost }
 	provision_cost = @provisions_cost_cavalry_cheap
 
-	stack = 50
+	stack = 100
 	ai_quality = { value = @[cultural_maa_extra_ai_score + 35 ] }
 	icon = conrois
 }
@@ -194,7 +194,7 @@ ballistrai = {
 	high_maintenance_cost = { gold = ballistrai_high_maint_cost }
 	provision_cost = @provisions_cost_special_moderate
 
-	stack = 50
+	stack = 100
 	ai_quality = { value = @[cultural_maa_extra_ai_score + 200] }
 	icon = ballistrai
 }

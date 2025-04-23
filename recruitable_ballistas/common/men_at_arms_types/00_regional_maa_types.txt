@@ -60,18 +60,18 @@ camel_rider = {
 war_elephant = {
 	type = elephant_cavalry
 	
-	damage = 250
-	toughness = 50
+	damage = 60
+	toughness = 18
 	pursuit = 0
 	screen = 0
 	
 	siege_value = 0.1
 	
 	terrain_bonus = {
-		jungle = { damage = 50 }
-		mountains = { damage = -100 }
-		desert_mountains = { damage = -100 }
-		wetlands = { damage = -150 toughness = -20 }
+		jungle = { damage = 15 }
+		mountains = { damage = -25 }
+		desert_mountains = { damage = -25 }
+		wetlands = { damage = -35 toughness = -8 }
 	}
 	
 	counters = {
@@ -80,8 +80,8 @@ war_elephant = {
 	}
 
 	winter_bonus = {
-		normal_winter = { damage = -30 toughness = -5 }
-		harsh_winter = { damage = -60 toughness = -10 }
+		normal_winter = { damage = -8 toughness = -2 }
+		harsh_winter = { damage = -15 toughness = -4 }
 	}
 
 	buy_cost = { gold = war_elephant_recruitment_cost }
@@ -99,8 +99,7 @@ war_elephant = {
 		}
 	}
 	
-	stack = 25
-	hired_stack_size = 10
+	stack = 100
 	ai_quality = { value = culture_ai_weight_elephants }
 	icon = war_elephants
 }

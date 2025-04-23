@@ -146,19 +146,19 @@ goedendag = {
 gendarme = {
 	type = heavy_cavalry
 	
-	damage = 125
-	toughness = 40
+	damage = 60
+	toughness = 25
 	pursuit = 20
 	screen = 10
 	
 	terrain_bonus = {
-		plains = { damage = 30 }
-		drylands = { damage = 30 }
-		hills = { damage = -10 }
-		jungle = { damage = -25 }
-		mountains = { damage = -50 }
-		desert_mountains = { damage = -50 }
-		wetlands = { damage = -75 }
+		plains = { damage = 15 }
+		drylands = { damage = 15 }
+		hills = { damage = -5 }
+		jungle = { damage = -12 }
+		mountains = { damage = -25 }
+		desert_mountains = { damage = -25 }
+		wetlands = { damage = -35 }
 	}
 
 	counters = {
@@ -166,8 +166,8 @@ gendarme = {
 	}
 
 	winter_bonus = {
-		normal_winter = { damage = -15 toughness = -5 }
-		harsh_winter = { damage = -30 toughness = -10 }
+		normal_winter = { damage = -8 toughness = -2 }
+		harsh_winter = { damage = -15 toughness = -4 }
 	}
 
 	buy_cost = { gold = gendarme_recruitment_cost }
@@ -175,7 +175,7 @@ gendarme = {
 	high_maintenance_cost = { gold = gendarme_high_maint_cost }
 	provision_cost = @provisions_cost_cavalry_expensive
 	
-	stack = 50
+	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = heavy_cavalry
 }
@@ -307,16 +307,16 @@ caballero = {
 monaspa = {
 	type = heavy_cavalry
 	
-	damage = 110
-	toughness = 30
+	damage = 55
+	toughness = 18
 	pursuit = 25
 	screen = 10
 	
 	terrain_bonus = {
-		hills = { damage = 20 pursuit = 10 }
-		mountains = { damage = 20 pursuit = 10 }
-		desert_mountains = { damage = -30 }
-		wetlands = { damage = -80 toughness = -15 pursuit = -20 }
+		hills = { damage = 10 pursuit = 10 }
+		mountains = { damage = 10 pursuit = 10 }
+		desert_mountains = { damage = -15 }
+		wetlands = { damage = -40 toughness = -8 pursuit = -20 }
 	}
 
 	counters = {
@@ -324,8 +324,8 @@ monaspa = {
 	}
 
 	winter_bonus = {
-		normal_winter = { damage = -10 toughness = -5 }
-		harsh_winter = { damage = -20 toughness = -5 }
+		normal_winter = { damage = -5 toughness = -2 }
+		harsh_winter = { damage = -10 toughness = -2 }
 	}
 	
 	can_recruit = {
@@ -340,7 +340,7 @@ monaspa = {
 	high_maintenance_cost = { gold = monaspa_high_maint_cost }
 	provision_cost = @provisions_cost_cavalry_moderate
 	
-	stack = 50
+	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = monaspa
 }
@@ -348,18 +348,18 @@ monaspa = {
 cataphract = {
 	type = heavy_cavalry
 	
-	damage = 125
-	toughness = 35
+	damage = 60
+	toughness = 20
 	pursuit = 10
 	screen = 0
 	
 	terrain_bonus = {
-		plains = { damage = 30 toughness = 5 }
-		drylands = { damage = 30 }
-		hills = { damage = -10 }
-		mountains = { damage = -50 }
-		desert_mountains = { damage = -50 }
-		wetlands = { damage = -80 toughness = -15 pursuit = -10 }
+		plains = { damage = 15 toughness = 2 }
+		drylands = { damage = 15 }
+		hills = { damage = -5 }
+		mountains = { damage = -25 }
+		desert_mountains = { damage = -25 }
+		wetlands = { damage = -40 toughness = -8 pursuit = -10 }
 	}
 
 	counters = {
@@ -367,8 +367,8 @@ cataphract = {
 	}
 
 	winter_bonus = {
-		normal_winter = { damage = -15 toughness = -5 }
-		harsh_winter = { damage = -30 toughness = -10 }
+		normal_winter = { damage = -8 toughness = -2 }
+		harsh_winter = { damage = -15 toughness = -4 }
 	}
 	
 	can_recruit = {
@@ -383,7 +383,7 @@ cataphract = {
 	high_maintenance_cost = { gold = cataphract_high_maint_cost }
 	provision_cost = @provisions_cost_cavalry_bankrupting
 	
-	stack = 50
+	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = cataphracts
 }

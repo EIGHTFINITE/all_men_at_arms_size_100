@@ -1247,7 +1247,7 @@ tradition_frugal_armorsmiths = {
 		knight_effectiveness_mult = -0.6
 		maa_toughness_add = -6
 		levy_toughness = -8
-		heavy_cavalry_toughness_add = -14
+		heavy_cavalry_toughness_add = -8
 		pikemen_toughness_add = -4
 		heavy_infantry_toughness_add = -4
 	}
@@ -1996,7 +1996,7 @@ tradition_stand_and_fight = {
 		levy_toughness = 2
 		maa_toughness_add = 4
 		heavy_infantry_toughness_add = 4
-		heavy_cavalry_toughness_add = 20
+		heavy_cavalry_toughness_add = 10
 		pikemen_toughness_add = 6
 		hard_casualty_modifier = 0.4
 		defender_advantage = 8

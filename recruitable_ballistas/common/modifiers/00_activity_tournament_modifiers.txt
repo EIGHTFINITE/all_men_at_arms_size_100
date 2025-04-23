@@ -15,7 +15,7 @@ tournament_training_decision_modifier = {
 tournament_joust_winner_modifier = {
 	icon = social_positive
 	glory_hound_opinion = 20
-	heavy_cavalry_damage_add = 10
+	heavy_cavalry_damage_add = 4
 	tourney_participant_xp_gain_mult = 0.1
 	belligerent_opinion = 15
 }
@@ -78,7 +78,7 @@ tournament_melee_participant_modifier = {
 tournament_joust_participant_modifier = {
 	icon = social_positive
 	glory_hound_opinion = 10
-	heavy_cavalry_damage_add = 5
+	heavy_cavalry_damage_add = 2
 	tourney_participant_xp_gain_mult = 0.05
 }
 

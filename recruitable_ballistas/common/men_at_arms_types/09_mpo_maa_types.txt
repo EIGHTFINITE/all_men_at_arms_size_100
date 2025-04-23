@@ -84,19 +84,19 @@ torch_bearers = {
 kheshig = {
 	type = archer_cavalry
 	
-	damage = 94
-	toughness = 60
+	damage = 47
+	toughness = 30
 	pursuit = 24
 	screen = 36
 	
 	terrain_bonus = {
-		steppe = { damage = 90 screen = 20 }
-		plains = { damage = 50 screen = 10 }
-		drylands = { damage = 20 }
-		jungle = { damage = -40 pursuit = -20 }
-		wetlands = { damage = -70 pursuit = -40 }
-		mountains = { damage = -70 pursuit = -40 }
-		desert_mountains = { damage = -70 pursuit = -40 }
+		steppe = { damage = 45 screen = 20 }
+		plains = { damage = 25 screen = 10 }
+		drylands = { damage = 10 }
+		jungle = { damage = -20 pursuit = -20 }
+		wetlands = { damage = -35 pursuit = -40 }
+		mountains = { damage = -35 pursuit = -40 }
+		desert_mountains = { damage = -35 pursuit = -40 }
 	}
 	
 	can_recruit = {
@@ -116,7 +116,7 @@ kheshig = {
 	high_maintenance_cost = { gold = kheshig_veterans_high_maint_cost }
 	provision_cost = @provisions_cost_cavalry_cheap
 
-	stack = 50
+	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = keshig
 }
@@ -167,20 +167,20 @@ steppe_raiders = {
 heavy_horse_archers = {
 	type = archer_cavalry
 	
-	damage = 92
-	toughness = 42
+	damage = 47
+	toughness = 21
 	pursuit = 24
 	screen = 24
 	
 	terrain_bonus = {
-		steppe = { damage = 80 }
-		plains = { damage = 40 }
-		forest = { damage = -20 pursuit = -10 }
-		taiga = { damage = -20 pursuit = -10 }
-		jungle = { damage = -50 pursuit = -25 }
-		wetlands = { damage = -85 pursuit = -40 }
-		mountains = { damage = -85 pursuit = -40 }
-		desert_mountains = { damage = -85 pursuit = -40 }
+		steppe = { damage = 40 }
+		plains = { damage = 20 }
+		forest = { damage = -10 pursuit = -10 }
+		taiga = { damage = -10 pursuit = -10 }
+		jungle = { damage = -25 pursuit = -25 }
+		wetlands = { damage = -40 pursuit = -40 }
+		mountains = { damage = -40 pursuit = -40 }
+		desert_mountains = { damage = -40 pursuit = -40 }
 	}
 
 	can_recruit = {
@@ -202,8 +202,8 @@ heavy_horse_archers = {
 	}
 
 	winter_bonus = {
-		normal_winter = { damage = -10 toughness = -5 }
-		harsh_winter = { damage = -20 toughness = -10 }
+		normal_winter = { damage = -5 toughness = -2 }
+		harsh_winter = { damage = -10 toughness = -4 }
 	}
 
 	buy_cost = { gold = heavy_horse_archers_recruitment_cost }
@@ -211,7 +211,7 @@ heavy_horse_archers = {
 	high_maintenance_cost = { gold = heavy_horse_archers_high_maint_cost }
 	provision_cost = @provisions_cost_cavalry_expensive
 	
-	stack = 50
+	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = heavy_horse_archers
 }
@@ -219,19 +219,19 @@ heavy_horse_archers = {
 nomad_lancers = {
 	type = heavy_cavalry
 	
-	damage = 120
-	toughness = 30
+	damage = 60
+	toughness = 16
 	pursuit = 20
 	screen = 0
 	
 	terrain_bonus = {
-		steppe = { damage = 50 }
-		plains = { damage = 40 }
-		drylands = { damage = 10 }
-		hills = { damage = -20 }
-		mountains = { damage = -75 }
-		desert_mountains = { damage = -75 }
-		wetlands = { damage = -75 toughness = -10 pursuit = -10 }
+		steppe = { damage = 25 }
+		plains = { damage = 20 }
+		drylands = { damage = 5 }
+		hills = { damage = -10 }
+		mountains = { damage = -35 }
+		desert_mountains = { damage = -35 }
+		wetlands = { damage = -35 toughness = -4 pursuit = -10 }
 	}
 
 	can_recruit = {
@@ -243,8 +243,8 @@ nomad_lancers = {
 	}
 
 	winter_bonus = {
-		normal_winter = { damage = -10 toughness = -5 }
-		harsh_winter = { damage = -20 toughness = -10 }
+		normal_winter = { damage = -5 toughness = -2 }
+		harsh_winter = { damage = -10 toughness = -4 }
 	}
 
 	buy_cost = { gold = nomad_lancers_recruitment_cost }
@@ -252,7 +252,7 @@ nomad_lancers = {
 	high_maintenance_cost = { gold = nomad_lancers_high_maint_cost }
 	provision_cost = @provisions_cost_cavalry_expensive
 	
-	stack = 50
+	stack = 100
 	ai_quality = { value = culture_ai_weight_heavy_cavalry }
 	icon = nomad_lancers
 }
@@ -299,19 +299,19 @@ mangudai = {
 cataphract_archers = {
 	type = heavy_cavalry
 	
-	damage = 90
-	toughness = 52
+	damage = 45
+	toughness = 26
 	pursuit = 20
 	screen = 10
 	
 	terrain_bonus = {
-		steppe = { damage = 40 }
-		drylands = { damage = 40 }
-		plains = { damage = 40 }
-		hills = { damage = -20 }
-		desert_mountains = { damage = -50 }
-		mountains = { damage = -75 }
-		wetlands = { damage = -75 toughness = -10 pursuit = -10 }
+		steppe = { damage = 20 }
+		drylands = { damage = 20 }
+		plains = { damage = 20 }
+		hills = { damage = -10 }
+		desert_mountains = { damage = -25 }
+		mountains = { damage = -35 }
+		wetlands = { damage = -35 toughness = -4 pursuit = -10 }
 	}
 
 	can_recruit = {
@@ -333,8 +333,8 @@ cataphract_archers = {
 	}
 
 	winter_bonus = {
-		normal_winter = { damage = -10 toughness = -5 }
-		harsh_winter = { damage = -20 toughness = -10 }
+		normal_winter = { damage = -5 toughness = -2 }
+		harsh_winter = { damage = -10 toughness = -4 }
 	}
 
 	buy_cost = { gold = cataphract_archers_recruitment_cost }
@@ -342,7 +342,7 @@ cataphract_archers = {
 	high_maintenance_cost = { gold = cataphract_archers_high_maint_cost }
 	provision_cost = @provisions_cost_cavalry_expensive
 	
-	stack = 50
+	stack = 100
 	ai_quality = { value = culture_ai_weight_heavy_cavalry }
 	icon = cataphract_archers
 }

@@ -24,7 +24,7 @@ asawira = { #Iranian knights in early caliphal armies. Can be restored as a mili
 	type = archer_cavalry
 	
 	damage = 45
-	toughness = 20
+	toughness = 18
 	pursuit = 35
 	screen = 10
 	
@@ -68,7 +68,7 @@ tarkhan = {
 	type = heavy_cavalry
 	
 	damage = 55
-	toughness = 18
+	toughness = 16
 	pursuit = 30
 	screen = 10
 	

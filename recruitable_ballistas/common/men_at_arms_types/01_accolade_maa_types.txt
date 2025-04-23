@@ -252,7 +252,7 @@ accolade_maa_lancers = {
 	}
 	
 	damage = 100
-	toughness = 40
+	toughness = 36
 	pursuit = 40
 	screen = 0
 	

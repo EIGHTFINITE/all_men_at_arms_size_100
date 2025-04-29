@@ -4,5 +4,5 @@ tags={
 	"Warfare"
 	"Balance"
 }
-name="Recruitable Ballistas"
+name="All Men-at-Arms Size 100"
 supported_version="1.16.*"

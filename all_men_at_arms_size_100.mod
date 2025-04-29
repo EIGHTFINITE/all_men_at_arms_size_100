@@ -4,6 +4,6 @@ tags={
 	"Warfare"
 	"Balance"
 }
-name="Recruitable Ballistas"
+name="All Men-at-Arms Size 100"
 supported_version="1.16.*"
-path="mod/recruitable_ballistas"
+path="mod/all_men_at_arms_size_100"

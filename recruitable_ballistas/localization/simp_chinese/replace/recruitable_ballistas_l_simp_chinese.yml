@@ -1,3 +1,0 @@
-﻿l_simp_chinese:
- eligible_accolade_crossbower_attribute_ACCOLADES_DLC: "$EFFECT_LIST_BULLET$该[culture|E]的[knights|E]有资格获得[GetAccoladeType('crossbowmen_attribute').GetName][accolades|E]"
- eligible_accolade_crossbower_attribute: "可以招募[GetMaA('ballistrai').GetName][men_at_arms|E]\n[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_crossbower_attribute_ACCOLADES_DLC')]"

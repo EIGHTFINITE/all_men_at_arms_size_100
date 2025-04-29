@@ -1,3 +1,0 @@
-﻿l_russian:
- eligible_accolade_crossbower_attribute_ACCOLADES_DLC: "$EFFECT_LIST_BULLET$[Concept('knights', 'Рыцари' )|E] этой [Concept('culture', 'культуры' )|E] могут получить [accolades|El] «[GetAccoladeType('crossbowmen_attribute').GetName]»"
- eligible_accolade_crossbower_attribute: "[Concept( 'men_at_arms', 'Доступны' )|E] [GetMaA('ballistrai').GetName]\n[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_crossbower_attribute_ACCOLADES_DLC')]"
